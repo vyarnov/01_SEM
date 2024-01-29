@@ -22,6 +22,14 @@
 //     Console.WriteLine("Нет"); // 1 число НЕ является квадратом 2 числа
 // }
 
+// Ввод с консоли:
+Console.Write ("Введите число"); //Допустим ввели 123, НО для C# это строка '123'
+int test = Convert.ToInt32(Console.ReadLine()); //Convert.ToInt32 Конвертирование строки '123'в число 123
+Console.WriteLine(test*1000);
+//Console.ReadLine() получить содержимое консоли
+
+
+
 // double a = 5;
 // int b = 2;
 // double res = a / b;

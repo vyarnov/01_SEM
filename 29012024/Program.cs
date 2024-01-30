@@ -2,7 +2,18 @@
 
 // Задача 1: Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
 
-int number = 15;
+int number = 75;
+int first = 7;
+int second = 23;
+
+if (number % first == 0 && number % second == 0) 
+{
+Console.WriteLine("Число" + " " + number +  " " + "кратно" + " " + first + " " +"и" + " " +second);
+}
+else
+{
+Console.WriteLine("Число" + " " + number +  " " + "НЕ кратно" + " " + first + " " +"и" + " " +second);
+}
 
 
 
@@ -45,14 +56,14 @@ int number = 15;
 // 7812 => 8
 // 91 => Третьей цифры нет
 
-int number = 12345678;
-if (number >= 100) // Число минимум трехзначное
-// От 100 до + бесконечности  
-{
-    int thirdDigitFromEnd = (number / 100) % 10;
-    Console.WriteLine($"Третья цифра от {number} с конца: {thirdDigitFromEnd}");
-}
-else // В числе нет 3 цифры
-{
-    Console.WriteLine("Третьей цифры нет");
-}
+// int number = 12345678;
+// if (number >= 100) // Число минимум трехзначное
+// // От 100 до + бесконечности  
+// {
+//     int thirdDigitFromEnd = (number / 100) % 10;
+//     Console.WriteLine($"Третья цифра от {number} с конца: {thirdDigitFromEnd}");
+// }
+// else // В числе нет 3 цифры
+// {
+//     Console.WriteLine("Третьей цифры нет");
+// }

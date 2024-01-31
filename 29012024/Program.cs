@@ -1,21 +1,54 @@
 ﻿﻿// Домашняя работа
 
 // Задача 1: Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
-
+{
+    Console.WriteLine("Задача 1");
+}
 int number = 75;
 int first = 7;
 int second = 23;
 
-if (number % first == 0 && number % second == 0) 
+if (number % first == 0 && number % second == 0)
 {
-Console.WriteLine("Число" + " " + number +  " " + "кратно" + " " + first + " " +"и" + " " +second);
+    Console.WriteLine("Число" + " " + number + " " + "кратно" + " " + first + " " + "и" + " " + second);
 }
 else
 {
-Console.WriteLine("Число" + " " + number +  " " + "НЕ кратно" + " " + first + " " +"и" + " " +second);
+    Console.WriteLine("Число" + " " + number + " " + "НЕ кратно" + " " + first + " " + "и" + " " + second);
 }
+{
+    Console.WriteLine("");
+}
+// Задача 2: Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер координатной четверти плоскости, в которой находится эта точка.
 
-
+{
+    Console.WriteLine("Задача 2");
+}
+int xCoordinate = 0;
+int yCoordinate = -3;
+if (xCoordinate >= 1 && yCoordinate >= 1)
+{
+    Console.WriteLine("X=" + xCoordinate + " " + "и" + " " + "Y=" + yCoordinate + " " + "находятся в 1 координатной четверти");
+}
+else if (xCoordinate <= -1 && yCoordinate >= 1)
+{
+    Console.WriteLine("X=" + xCoordinate + " " + "и" + " " + "Y=" + yCoordinate + " " + "находятся во 2 координатной четверти");
+}
+else if (xCoordinate <= -1 && yCoordinate <= -1)
+{
+    Console.WriteLine("X=" + xCoordinate + " " + "и" + " " + "Y=" + yCoordinate + " " + "находятся в 3 координатной четверти");
+}
+else if (xCoordinate >= 1 && yCoordinate <= -1)
+{
+    Console.WriteLine("X=" + xCoordinate + " " + "и" + " " + "Y=" + yCoordinate + " " + "находятся в 4 координатной четверти");
+}
+else
+{
+    Console.WriteLine("X или Y не может быть 0");
+}
+{
+    Console.WriteLine("");
+}
 
 
 

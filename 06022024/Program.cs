@@ -36,19 +36,65 @@ while (true)
 
 // Задача 2: Задайте массив заполненный случайными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
+int[] CreateArray(int size)
+{
+    int[] array = new int[size]; // Массив на size элементов
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(100, 1000);
+    }
+    return array;
+}
+
+Console.Write("Введите число элементов массива: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int[] res = CreateArray(N); // Создали массив на N элементов
+int sum = 0;
+for (int i = 0; i < res.Length; i++)
+{
+    if (res[i] % 2 == 0)
+    {
+        sum = sum + 1;
+    }
+}
+Console.WriteLine($"Массив: [ {string.Join("; ", res)} ]");
+Console.Write("Чётных чисел в массиве : " + sum);
+
+
 // Задача 3: Напишите программу, которая перевернёт одномерный массив (первый элемент станет последним, второй – предпоследним и т.д.)
 
+int[] CreateArray(int size)
+{
+    int[] array = new int[size]; // Массив на size элементов
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(1, 100);
+    }
+    return array;
+}
 
-//int text = Convert.ToInt32(Console.ReadLine());
-//Console.Write(text);
+
+Console.Write("Введите число элементов массива: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int[] res = CreateArray(N); // Создали массив на N элементов
+int[] res2 = CreateArray(N); // Создали массив на N элементов
+
+for (int i = 0, j = res2.Length-1; i < res.Length; i++, j--)
+{
+    res[i] = res2[j];
+
+}
+Console.WriteLine($"Исходный Массив: [ {string.Join("; ", res)} ]");
+Console.WriteLine($"Перевернутый Массив: [ {string.Join("; ", res2)} ]");
 
 
 
 
+// for (int i = 0, j = 1; i < res.Length && j < res2.Length; i++, j++)
+// {
+//     res[i] = res2[res2.Length - j];
 
-
-
-
+// }
 
 
 // while (true) // true == true

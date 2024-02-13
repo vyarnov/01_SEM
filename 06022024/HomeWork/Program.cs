@@ -12,7 +12,27 @@
 
 
 
+// while (true) // true == true
+// {
+// Console.Write("Введите текст: ");
+// string text = Console.ReadLine();
+// if (text == "q")
+// {
+// break;
+// }
+// int number; // 0, если есть символы ИЛИ само число
+// if (int.TryParse(text, out number)) // true, строка состоит только из цифр
+// {
+// // 42: 2 + 4 = 6
+// ...
+// int sum = 0;
+// if (sum % 2 == 0)
+// {
+// break;
+// }
+// }
 
+// }
 // // // тип_метода ИмяМетода (пар1, пар2, ... парN)
 // // // a, b - 2 числа, sign - знак арифм. операции
 // // int Calculate(int a, int b, string sign)

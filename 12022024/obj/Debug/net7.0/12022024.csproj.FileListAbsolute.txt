@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.AssemblyInfo.cs
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\bin\Debug\net7.0\12022024.exe
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\bin\Debug\net7.0\12022024.deps.json
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\bin\Debug\net7.0\12022024.runtimeconfig.json
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\bin\Debug\net7.0\12022024.dll
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\bin\Debug\net7.0\12022024.pdb
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.dll
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\refint\12022024.dll
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.pdb
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\12022024.genruntimeconfig.cache
+C:\Users\User\Desktop\GB\C#\01_SEM\12022024\obj\Debug\net7.0\ref\12022024.dll

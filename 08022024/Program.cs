@@ -9,7 +9,10 @@ int[,] array = new int[,] {
 
 int[] SumRows(int[,] array)
 {
-    int[] arr = new int[array.GetLength(0)];
+    int[] arr = new int[
+        
+        
+    ];
     for (int i = 0; i < array.GetLength(0); i++) // строки
     {
         int sum = 0;

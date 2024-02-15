@@ -27,25 +27,25 @@
 
 // Задача 3: Задайте произвольную строку. Выясните, является ли она палиндромом.
 // Console.Clear();
-// Console.Write("Введите строку из латинских букв:");
-// string line = Console.ReadLine();
-// char[] array = line.ToCharArray();
-// bool change = false;
-// for (int i = 0; i < array.Length; i++)
-// {
+Console.Write("Введите строку из латинских букв:");
+string line = Console.ReadLine();
+char[] array = line.ToCharArray();
+bool change = false;
+for (int i = 0; i < array.Length; i++)
+{
 
-//     if (array[i] != array[(array.Length) - 1 - i])
-//     {
-//         Console.Write("Строка не палиндром");
-//         change = false;
-//         break;
-//     }
-//     change = true;
-// }
-// if (change == true)
-// {
-//     Console.WriteLine("Строка палиндром");
-// }
+    if (array[i] != array[(array.Length) - 1 - i])
+    {
+        Console.Write("Строка не палиндром");
+        change = false;
+        break;
+    }
+    change = true;
+}
+if (change == true)
+{
+    Console.WriteLine("Строка палиндром");
+}
 
 
 // Console.Write(array[array.Length-1]);
